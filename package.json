@@ -1,0 +1,16 @@
+{
+  "name": "object-assign-on-ie11",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "repository": "https://github.com/satoshicano/object-assign-on-ie11.git",
+  "author": "satoshicano <satoshicano@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel index.js --out-file docs/dist.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
